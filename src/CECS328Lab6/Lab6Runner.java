@@ -53,10 +53,10 @@ public class Lab6Runner {
     }
     
     //MPSS helper.
-    public static int mpss(int [] array){
+    /**public static int mpss(int [] array){
         return mpss(array, 0, array.length - 1, Integer.MAX_VALUE);
     }
-            
+     */       
     public static int mpss(int [] array, int start, int end, int min){
         //Default max value.
         int sMin = min;
