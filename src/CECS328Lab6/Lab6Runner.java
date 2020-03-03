@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Lab6Runner {
     
     public static void main(String [] args){
-        //*********[ Begin declarations, user input, and initilization. ]******
+        // Begin declarations, user input, and initilization. ]******
         Scanner input = new Scanner(System.in);
         int n = 0, k = 0, mpss;
         Random random = new Random();
